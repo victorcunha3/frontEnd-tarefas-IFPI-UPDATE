@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000/tarefas'
+const API_URL = 'https://tarefas-app.onrender.com/tarefas'
 const token = `Bearer ${localStorage.getItem("access_token")}`
 
 

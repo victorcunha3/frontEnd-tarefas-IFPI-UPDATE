@@ -18,7 +18,7 @@ function signUp(event) {
         return;
     }
 
-    const API_URL = 'http://127.0.0.1:8000/auth/signup';
+    const API_URL = 'https://tarefas-app.onrender.com/auth/signup';
     const user = {
         nome: nameInput.value,
         usuario: usernameInput.value,
@@ -51,7 +51,7 @@ function signUp(event) {
     
         setTimeout(() => {
             Swal.close();
-            window.location.replace('http://127.0.0.1:5500/frontend2/screen.html');
+            window.location.replace('https://incredible-baklava-5ac7c2.netlify.app/frontend2/screen.html');
         }, 2000);
     })    
     .catch((error) => {
