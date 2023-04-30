@@ -51,7 +51,7 @@ function signUp(event) {
     
         setTimeout(() => {
             Swal.close();
-            window.location.replace('http://127.0.0.1:5500/frontend2/login.html');
+            window.location.replace('http://127.0.0.1:5500/frontend2/screen.html');
         }, 2000);
     })    
     .catch((error) => {
