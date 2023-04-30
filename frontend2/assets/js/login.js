@@ -31,7 +31,7 @@ function signIn(event) {
         icon: 'success',
         confirmButtonText: 'OK',
         });
-        window.location.replace('https://incredible-baklava-5ac7c2.netlify.app//frontend2/')
+        window.location.replace('https://incredible-baklava-5ac7c2.netlify.app/screen.html')
     })
     .catch(error => {
         console.error(error);
