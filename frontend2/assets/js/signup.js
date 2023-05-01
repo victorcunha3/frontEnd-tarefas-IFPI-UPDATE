@@ -51,7 +51,7 @@ function signUp(event) {
     
         setTimeout(() => {
             Swal.close();
-            window.location.replace('https://incredible-baklava-5ac7c2.netlify.app/screen.html');
+            window.location.replace('https://incredible-baklava-5ac7c2.netlify.app/index.html');
         }, 2000);
     })    
     .catch((error) => {
