@@ -206,3 +206,9 @@ async function atualizarTarefa(id, tarefa) {
   });
   return response;
 }
+
+
+function logout() {
+  localStorage.removeItem('access_token');
+  window.location.href = 'https://incredible-baklava-5ac7c2.netlify.app/index.html';
+}
